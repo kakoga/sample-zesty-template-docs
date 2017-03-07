@@ -1,0 +1,340 @@
+<?xml version="1.0"?>
+    <plate_variables>
+        <created_date>2016-11-30</created_date>
+        <created_date>2016-11-30</created_date>
+        <plate>Vetranarian Template A</plate>
+        <created_by>Variable Action</created_by>
+        <kitchen>Blank</kitchen>
+        <variables>
+          <text name="container-large-desktop" name_friendly="Max Container Width">
+              <category>1</category>
+              <description></description>
+              <sort>1</sort>
+              <edit_in_content>1</edit_in_content>
+              <locked>0</locked>
+              <value>1100px</value>
+          </text>
+            <color name="body-bg" name_friendly="Body Background Color">
+                <category>1</category>
+                <description>The primary background for elements</description>
+                <sort>5</sort>
+                <edit_in_content>1</edit_in_content>
+                <locked>0</locked>
+                <value>#fffef2</value>
+            </color>
+            <text name="border-radius-base" name_friendly="Default Border Radius">
+                <category>1</category>
+                <description>The default curvature for borders around elements.</description>
+                <sort>7</sort>
+                <edit_in_content>1</edit_in_content>
+                <locked>0</locked>
+                <value>0px</value>
+            </text>
+            <color name="navbar-default-link-color" name_friendly="Navigation Font Color">
+                <category>4</category>
+                <description/>
+                <sort>1</sort>
+                <edit_in_content>1</edit_in_content>
+                <locked>0</locked>
+                <value>#ffffff</value>
+            </color>
+            <color name="navbar-default-bg" name_friendly="Navigation Background Color">
+                <category>4</category>
+                <description/>
+                <sort>1</sort>
+                <edit_in_content>1</edit_in_content>
+                <locked>0</locked>
+                <value>#33715a</value>
+            </color>
+            <text name="nav-font-size" name_friendly="Navigation Font Size">
+                <category>4</category>
+                <description>NULL</description>
+                <sort>1</sort>
+                <edit_in_content>1</edit_in_content>
+                <locked>0</locked>
+                <value>14px</value>
+            </text>
+            <color name="link-color" name_friendly="Link Color">
+                <category>3</category>
+                <description/>
+                <sort>1</sort>
+                <edit_in_content>1</edit_in_content>
+                <locked>0</locked>
+                <value>#0b243a</value>
+            </color>
+            <color name="link-hover-color" name_friendly="Link Hover Color">
+                <category>3</category>
+                <description/>
+                <sort>1</sort>
+                <edit_in_content>1</edit_in_content>
+                <locked>0</locked>
+                <value>#35526c</value>
+            </color>
+            <dropdown name="link-hover-decoration" name_friendly="Link Hover Decoration">
+                <category>3</category>
+                <description/>
+                <sort>1</sort>
+                <edit_in_content>1</edit_in_content>
+                <locked>0</locked>
+                <value>underline</value>
+                <options>
+                    <option description="Underline" value="underline" />
+                    <option description="None" value="none" />
+                </options>
+            </dropdown>
+
+            <font_picker name="font-family-base" name_friendly="Main Body Font">
+                <category>2</category>
+                <description/>
+                <sort>1</sort>
+                <edit_in_content>1</edit_in_content>
+                <locked>0</locked>
+                <value>"Hind", Helvetica, Arial, sans-serif</value>
+            </font_picker>
+            <color name="text-color" name_friendly="Default Text Color">
+                <category>2</category>
+                <description>NULL</description>
+                <sort>1</sort>
+                <edit_in_content>1</edit_in_content>
+                <locked>0</locked>
+                <value>#2b2b2b</value>
+            </color>
+            <text name="font-size-base" name_friendly="Default Font Size">
+                <category>2</category>
+                <description>NULL</description>
+                <sort>1</sort>
+                <edit_in_content>1</edit_in_content>
+                <locked>0</locked>
+                <value>16px</value>
+            </text>
+            <font_picker name="serif-font" name_friendly="Serif Font">
+                <category>2</category>
+                <description>NULL</description>
+                <sort>9</sort>
+                <edit_in_content>1</edit_in_content>
+                <locked>0</locked>
+                <value>'Droid Serif', 'Arial', 'Helvetica', 'sans-serif'</value>
+            </font_picker>
+            <font_picker name="headings-font-family" name_friendly="Heading Font">
+                <category>2</category>
+                <description>NULL</description>
+                <sort>9</sort>
+                <edit_in_content>1</edit_in_content>
+                <locked>0</locked>
+                <value>'Montserrat', 'Arial', 'Helvetica', 'sans-serif'</value>
+            </font_picker>
+            <dropdown name="headings-font-weight" name_friendly="Headings Font Weight">
+                <category>2</category>
+                <description>NULL</description>
+                <sort>10</sort>
+                <edit_in_content>1</edit_in_content>
+                <locked>0</locked>
+                <value>500</value>
+                <options>
+                    <option description="100" value="100" />
+                    <option description="200" value="200" />
+                    <option description="300" value="300" />
+                    <option description="400" value="400" />
+                    <option description="500" value="500" />
+                    <option description="600" value="600" />
+                    <option description="700" value="700" />
+                    <option description="800" value="800" />
+                    <option description="900" value="900" />
+                </options>
+            </dropdown>
+            <text name="headings-line-height" name_friendly="Headings Line Height">
+                <category>2</category>
+                <description>NULL</description>
+                <sort>9</sort>
+                <edit_in_content>1</edit_in_content>
+                <locked>0</locked>
+                <value>1.3em</value>
+            </text>
+            <text name="paragraph-font-size" name_friendly="Paragraph Font Size">
+                <category>2</category>
+                <description>NULL</description>
+                <sort>6</sort>
+                <edit_in_content>1</edit_in_content>
+                <locked>0</locked>
+                <value>16px</value>
+            </text>
+            <color name="paragraph-font-color" name_friendly="Paragraph Font Color">
+                <category>2</category>
+                <description>NULL</description>
+                <sort>5</sort>
+                <edit_in_content>1</edit_in_content>
+                <locked>0</locked>
+                <value>#5a5a5a</value>
+            </color>
+            <text name="line-height-computed" name_friendly="Paragraph Line Height">
+                <category>2</category>
+                <description>NULL</description>
+                <sort>4</sort>
+                <edit_in_content>1</edit_in_content>
+                <locked>0</locked>
+                <value>1.6em</value>
+            </text>
+
+            <color name="btn-default-color" name_friendly="Button Font Color">
+                <category>6</category>
+                <description/>
+                <sort>1</sort>
+                <edit_in_content>1</edit_in_content>
+                <locked>0</locked>
+                <value>#ffffff</value>
+            </color>
+            <text name="btn-border-radius-base" name_friendly="Button Border Radius">
+                <category>6</category>
+                <description/>
+                <sort>1</sort>
+                <edit_in_content>1</edit_in_content>
+                <locked>0</locked>
+                <value>4px</value>
+            </text>
+            <color name="btn-default-bg" name_friendly="Button Background Color">
+                <category>6</category>
+                <description>NULL</description>
+                <sort>1</sort>
+                <edit_in_content>1</edit_in_content>
+                <locked>0</locked>
+                <value>#0b243a</value>
+            </color>
+            <color name="btn-hover-font-color" name_friendly="Button Hover Font Color">
+                <category>6</category>
+                <description>NULL</description>
+                <sort>25</sort>
+                <edit_in_content>1</edit_in_content>
+                <locked>0</locked>
+                <value>#ffffff</value>
+            </color>
+            <color name="btn-hover-bg-color" name_friendly="Button Border Color">
+                <category>6</category>
+                <description>NULL</description>
+                <sort>20</sort>
+                <edit_in_content>1</edit_in_content>
+                <locked>0</locked>
+                <value>#203d57</value>
+            </color>
+
+            <color name="brand-primary" name_friendly="Brand Color">
+                <category>1</category>
+                <description>This color is used for hairlines, borders, even color on tables, and general aesthetics</description>
+                <sort>3</sort>
+                <edit_in_content>1</edit_in_content>
+                <locked>0</locked>
+                <value>#0b243a</value>
+                <options>
+                    <option description="No transition" value="0ms" />
+                    <option description="50ms" value="50ms" />
+                    <option description="100ms" value="100ms" />
+                    <option description="250ms" value="250ms" />
+                    <option description="500ms" value="500ms" />
+                    <option description="1 second" value="1000ms" />
+                </options>
+            </color>
+            <color name="theme-danger-color" name_friendly="Warning (error) Color">
+                <category>1</category>
+                <description>Notification color, should be a dark yellow, red, or orange.</description>
+                <sort>5</sort>
+                <edit_in_content>1</edit_in_content>
+                <locked>0</locked>
+                <value>#622b13</value>
+            </color>
+            <color name="theme-gray-color" name_friendly="Theme Green Color">
+                <category>1</category>
+                <description>Base color for all the basic type on the website.</description>
+                <sort>5</sort>
+                <edit_in_content>1</edit_in_content>
+                <locked>0</locked>
+                <value>#33715a</value>
+            </color>
+
+            <image name="body-bg-image" name_friendly="Body Background Image">
+                <category>1</category>
+                <description></description>
+                <sort>12</sort>
+                <edit_in_content>1</edit_in_content>
+                <locked>0</locked>
+                <value></value>
+            </image>
+
+            <dropdown name="body-bg-image-repeat" name_friendly="Body Background Image Repeat">
+                <category>1</category>
+                <description>Your option to repeat the uploaded image infinitely, repeat it on the y/x axis, or no repeat at all.</description>
+                <sort>25</sort>
+                <edit_in_content>1</edit_in_content>
+                <locked>0</locked>
+                <value>repeat</value>
+                <options>
+                    <option description="No Repeat" value="no-repeat" />
+                    <option description="Repeat on Y Axis" value="repeat-y" />
+                    <option description="Repeat on X Axis" value="repeat-x" />
+                    <option description="Repeat" value="repeat" />
+                </options>
+            </dropdown>
+            <dropdown name="body-bg-image-size" name_friendly="Body Background Image Size">
+                <category>1</category>
+                <description>&lt;strong&gt;Cover&lt;/strong&gt; scales the image to be as large as possible. &lt;strong&gt;Contain&lt;/strong&gt; scales the image to either the width or the height depending on which is longer. &lt;strong&gt;Percentages&lt;/strong&gt; will scale the image to a percentage of the browser</description>
+                <sort>30</sort>
+                <edit_in_content>1</edit_in_content>
+                <locked>0</locked>
+                <value>50%</value>
+                <options>
+                    <option description="As is" value="auto" />
+                    <option description="Cover" value="cover" />
+                    <option description="Contain" value="contain" />
+                    <option description="100%" value="100%" />
+                    <option description="90%" value="90%" />
+                    <option description="80%" value="80%" />
+                    <option description="70%" value="70%" />
+                    <option description="60%" value="60%" />
+                    <option description="50%" value="50%" />
+                    <option description="40%" value="40%" />
+                    <option description="30%" value="30%" />
+                    <option description="20%" value="20%" />
+                    <option description="10%" value="10%" />
+                </options>
+            </dropdown>
+
+            <color name="content-bg-color" name_friendly="Content Background Color">
+                <category>1</category>
+                <description>The background color of all content boxes.</description>
+                <sort>2</sort>
+                <edit_in_content>1</edit_in_content>
+                <locked>0</locked>
+                <value>#ffffff</value>
+            </color>
+
+
+
+            <text name="default-spacing" name_friendly="Default Spacing">
+                <category>1</category>
+                <description>This occurs in forms, and other areas where space is needed. It's meant to keep the site consistently spaced, there are areas that use this number in division to keep a digital feng shui</description>
+                <sort>7</sort>
+                <edit_in_content>1</edit_in_content>
+                <locked>0</locked>
+                <value>30px</value>
+            </text>
+            <color name="accent-color" name_friendly="Accent Color">
+                <category>1</category>
+                <description>This color is used for hairlines, borders, even color on tables, and general aesthetics</description>
+                <sort>3</sort>
+                <edit_in_content>1</edit_in_content>
+                <locked>0</locked>
+                <value>#a7684b</value>
+            </color>
+
+            <text name="nav-at-font-color" name_friendly=" ">
+            </text>
+            <text name="navbar-height" name_friendly=" ">
+            </text>
+            <text name="nav-link-padding-left" name_friendly=" ">
+            </text>
+            <text name="nav-link-padding" name_friendly=" ">
+            </text>
+            <text name="navbar-default-link-hover-color" name_friendly=" ">
+            </text>
+            <text name="navbar-default-link-hover-bg" name_friendly=" ">
+            </text>
+        </variables>
+    </plate_variables>
